@@ -25,12 +25,13 @@ public static void Main(string[] args
 }<br/>
 <br/>
 You can deploy a Sample ASP.Net MVC website on Heroku server with Postgres database by clicking below button
-Sample Application source code is available [at] (https://github.com/heroku-softtrends/dotnetcore2.postgres.sample/tree/master)
 <br/>
 <br/>
 <a href="https://heroku.com/deploy?template=https://github.com/heroku-softtrends/dotnetcore2.postgres.sample/tree/master">
   <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy">
 </a>
+
+Sample Application source code is available [Sample](https://github.com/heroku-softtrends/dotnetcore2.postgres.sample/tree/master)
 
 ## This application consists of:
 
