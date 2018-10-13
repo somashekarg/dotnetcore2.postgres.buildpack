@@ -1,7 +1,7 @@
-# Softtrends .NET Core 2.x Buildpack for Heroku with Heroku Postgres
-## (Sample Code with Heroku Button deploying ASP.Net Core 2.x  + Heroku Postgres)
+# .NET Core 2.x Buildpack for Heroku with Heroku Postgres by Softtrends
+## by Softtrends LLC
 
-This uses the .Net Core 2.x Buildpack provided by Softtends and adds full support for Heroku Postgres<br>
+This .Net Core 2.x Buildpack is provided by Softtends and it adds full support for Heroku Postgres<br>
 
 We've made some big updates in this release, so it’s **important** that you spend a few minutes to learn what’s new.
 
@@ -24,7 +24,8 @@ public static void Main(string[] args
                 .Build();
 }<br/>
 <br/>
-You can deploy this ASP.Net MVC website on Heroku server by clicking below button
+You can deploy a Sample ASP.Net MVC website on Heroku server with Postgres database by clicking below button
+Sample Application source code is available [at] (https://github.com/heroku-softtrends/dotnetcore2.postgres.sample/tree/master)
 <br/>
 <br/>
 <a href="https://heroku.com/deploy?template=https://github.com/heroku-softtrends/dotnetcore2.postgres.sample/tree/master">
