@@ -37,13 +37,13 @@ if [ $STACK == "heroku-14" ]; then
    	else
    		apt_install libunwind8 libicu52
    	fi
-else if [ $STACK == "heroku-16" ]; then
+elif [ $STACK == "heroku-16" ]; then
 	if [ $PROJECT_VERSION == "netcoreapp2.1" ]; then
 		apt_install libicu55
    	else
    		apt_install libunwind8 libicu55
    	fi
-else if [ $STACK == "heroku-18" ]; then
+elif [ $STACK == "heroku-18" ]; then
 	if [ $PROJECT_VERSION == "netcoreapp2.1" ]; then
 		apt_install libicu60 openssl1.0
    	else
